@@ -4,8 +4,9 @@ services:
     container_name: postgres_db
     restart: always
     environment:
-      POSTGRES_USER: sa
-      POSTGRES_PASSWORD: Zaq135qwerty123!
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: trans
     ports:
       - "5432:5432"
     volumes:

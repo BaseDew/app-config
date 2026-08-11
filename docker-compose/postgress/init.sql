@@ -1,3 +1,8 @@
+CREATE SCHEMA IF NOT EXISTS trans;
+
+SET search_path TO trans;
+
+
 CREATE TABLE users (
     user_id BIGSERIAL PRIMARY KEY,
     username VARCHAR(100) NOT NULL UNIQUE,
